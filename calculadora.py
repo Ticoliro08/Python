@@ -4,6 +4,7 @@ print("Soma - Opção 1")
 print("Subtração - Opção 2")
 print("Multiplicação - Opção 3")
 print("Divisão - Opção 4")
+print("Potencia - Opção 5")
 
 opcao = input("Escolha a opçao:")
 
@@ -30,3 +31,9 @@ elif opcao == "4":
  div2 =float (input("Digite o segundo numero:"))
  div_total = div1 / div2
  print(f"A divisão total é de {div_total}")
+
+elif opcao == "5":
+ pot1 = float( input("Digite o primeiro numero:"))
+ pot2 =float (input("Digite o segundo numero:"))
+ pot_total = pot1 ** pot2
+ print(f"A divisão total é de {pot_total}")
