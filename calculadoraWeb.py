@@ -10,6 +10,7 @@ b = st.number_input('Digite o segundo numero:\n ')
 
 
 
+
 if sinal == "multiplicação":
   conta  = a * b
   st.write(f"O resultado de sua conta de multiplicação é de {conta}.")
